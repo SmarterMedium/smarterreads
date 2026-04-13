@@ -1,0 +1,45 @@
+{
+  "instance": {
+    "name": "AI Literacy Reading Room",
+    "tagline": "Curated reading for people who want to think, not just prompt.",
+    "description": "A curated collection of essential reading for the Assisting Intelligence program — books that build the thinking frameworks behind effective AI adoption."
+  },
+  "branding": {
+    "logo_url": "https://smartermedium.github.io/smarterreads/assets/AI_Logo_LongWH.png",
+    "bg_color": "#0D1A2B",
+    "text_color": "#eeece9",
+    "header_color": "#ffffff",
+    "accent_color": "#DBF227",
+    "header_font": "Work Sans",
+    "body_font": "Cormorant Garamond",
+    "footer_text": "Assisting Intelligence — SmarterMedium"
+  },
+  "content": {
+    "catalog_csv_url": "REPLACE_WITH_PUBLISHED_GOOGLE_SHEET_CSV_URL",
+    "review_base_url": "https://smartermedium.github.io/smarterreads/reviews"
+  },
+  "affiliate": {
+    "bookshop_id": "109081",
+    "bookshop_base_url": "https://bookshop.org"
+  },
+  "shelves": [
+    {
+      "id": "foundations",
+      "label": "Foundations",
+      "description": "The books that build the thinking frameworks behind everything else."
+    }
+  ],
+  "programs": [
+    {
+      "id": "assisting-intelligence",
+      "label": "Assisting Intelligence"
+    }
+  ],
+  "features": {
+    "show_ratings": true,
+    "show_reviews": true,
+    "show_mark_as_read": true,
+    "show_programs": false,
+    "zapier_webhook_url": ""
+  }
+}
